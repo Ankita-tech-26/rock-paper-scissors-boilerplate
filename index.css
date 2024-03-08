@@ -1,0 +1,36 @@
+body {
+    background-image: url('https://github.com/Ankita-tech-26/rock-paper-scissors-boilerplate/blob/main/assets/bg.png?raw=true');
+    background-size: cover ;
+    
+    }
+
+    .play {
+        width: 180px;
+        cursor: pointer;
+        position: absolute;
+        bottom: 70px;
+        height: 6%;
+        width: 4%;
+        right: 20%;
+    }
+
+    .text {
+        font-size: 20px;
+        color: aliceblue;
+        float: right;
+        padding-top: 600px;
+        margin-right: 11%;
+    }
+
+    .heading {
+        font-size: 50px;
+        color: blueviolet;
+        position: absolute;
+        right: 25px;
+        top: 0px;
+    }
+
+    #buttons {
+        display: flex;
+        justify-content: space-evenly;
+    }
